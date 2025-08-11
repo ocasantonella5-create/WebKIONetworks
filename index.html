@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>KIO Networks | Soluciones Tecnológicas</title>
+     <link rel="stylesheet" href="style.css">
+     <!-- Font Awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+     <!-- Tipografías -->
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <!-- Usamos <header> para la cabecera del sitio con logo y navegación -->
+  <header>
+    <div class="logo">KIO<span>Networks</span></div> 
+    <!-- Botón menú hamburguesa (solo visible en móvil gracias a media queries en CSS) -->
+    <button class="nav-toggle" aria-label="Abrir menú">≡</button>
+    <nav id="navbar">
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#casos">Casos de Éxito</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#clientes">Clientes</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO / INICIO -->
+  <!-- Sección principal con imagen de fondo y overlay negro semitransparente -->
+  <section class="hero" id="inicio">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1>Impulsando tu empresa al futuro digital</h1>
+      <p>Soluciones de nube, ciberseguridad y transformación tecnológica</p>
+      <div class="boton-hero">
+        <a href="#servicios" class="btn">Ver servicios</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <!-- Sección en Grid con 8 servicios -->
+  <section class="servicios" id="servicios">
+    <h2>Nuestros Servicios</h2>
+    <div class="cards-container">
+      <div class="card">
+        <i class="fa-solid fa-cloud"></i>
+        <h3>Cloud Services</h3>
+        <p>Infraestructura en la nube escalable y segura.</p>
+        <a href="#" class="btn-secundario">Ver más</a>
+      </div>
+      <div class="card">
+        <i class="fa-solid fa-shield-halved"></i>
+        <h3>Ciberseguridad</h3>
+        <p>Protección integral con monitoreo 24/7.</p>
+        <a href="#" class="btn-secundario">Ver más</a>
+      </div>
+      <div class="card">
+        <i class="fa-solid fa-database"></i>
+        <h3>Data Centers</h3>
+        <p>Infraestructura confiable y de alta disponibilidad.</p>
+        <a href="#" class="btn-secundario">Ver más</a>
+      </div>
+      <div class="card">
+        <i class="fa-solid fa-gears"></i>
+        <h3>Transformación Digital</h3>
+        <p>Moderniza tus procesos con IA y automatización.</p>
+        <a href="#" class="btn-secundario">Ver más</a>
+      </div>
+      <div class="card">
+        <i class="fa-solid fa-server"></i>
+        <h3>Soporte TI</h3>
+        <p>Asistencia técnica continua y proactiva.</p>
+        <a href="#" class="btn-secundario">Ver más</a>
+      </div>
+      <div class="card">
+        <i class="fa-solid fa-rotate"></i>
+        <h3>Backup & Recovery</h3>
+        <p>Recuperación rápida de datos críticos.</p>
+        <a href="#" class="btn-secundario">Ver más</a>
+      </div>
+      <div class="card">
+        <i class="fa-solid fa-network-wired"></i>
+        <h3>Redes Empresariales</h3>
+        <p>Infraestructura de red segura y optimizada.</p>
+        <a href="#" class="btn-secundario">Ver más</a>
+      </div>
+      <div class="card">
+        <i class="fa-solid fa-laptop-code"></i>
+        <h3>DevOps & Automatización</h3>
+        <p>Flujos de trabajo continuos y eficientes.</p>
+        <a href="#" class="btn-secundario">Ver más</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CASOS DE ÉXITO -->
+  <!-- Ejemplos reales de trabajos exitosos -->
+  <section class="casos" id="casos">
+    <h2>Casos de Éxito</h2>
+    <div class="cards-container">
+      <div class="card">
+        <img src="img/caso1.jpg" alt="Hospitales Conectados">
+        <h3>Hospitales Conectados</h3>
+        <p>Reducción del 40% en tiempos de atención médica.</p>
+        <a href="#" class="btn-secundario">Ver caso</a>
+      </div>
+      <div class="card">
+        <img src="img/caso2.jpg" alt="FinTech Segura">
+        <h3>FinTech Segura</h3>
+        <p>Compliance y cero brechas en 18 meses.</p>
+        <a href="#" class="btn-secundario">Ver caso</a>
+      </div>
+      <div class="card">
+        <img src="img/caso3.jpg" alt="Retail Inteligente">
+        <h3>Retail Inteligente</h3>
+        <p>Incremento de ventas del 22% anual.</p>
+        <a href="#" class="btn-secundario">Ver caso</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- NOSOTROS -->
+  <!-- Sección descriptiva con texto e imagen -->
+  <section class="nosotros" id="nosotros">
+    <h2>Sobre Nosotros</h2>
+    <div class="cards-container">
+      <div class="card">
+        <img src="img/nosotros.jpg" alt="Centro de datos de KIO Networks">
+      </div>
+      <div class="nosotros-content">
+        <p><strong>KIO Networks</strong> es una empresa líder en soluciones tecnológicas con presencia internacional. Fundada en 2002, se especializa en ofrecer servicios de infraestructura crítica como centros de datos, nube híbrida, ciberseguridad, automatización e inteligencia artificial.</p>
+        <p>Con más de 40 centros de datos distribuidos en América Latina y Europa, KIO brinda soporte a empresas de todos los sectores: financiero, salud, gobierno, retail, educación y más. Su enfoque está centrado en la innovación, seguridad y escalabilidad.</p>
+        <p><strong>Misión:</strong> Potenciar la transformación digital de las organizaciones mediante soluciones tecnológicas de alta disponibilidad, con un enfoque seguro, eficiente y sostenible.</p>
+        <p><strong>Visión:</strong> Ser el socio tecnológico más confiable e innovador en el mercado global.</p>
+        <p><strong>Valores:</strong> Compromiso, integridad, excelencia, trabajo en equipo e innovación constante.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLIENTES CORPORATIVOS -->
+  <section class="clientes" id="clientes">
+  <h2>Clientes Corporativos</h2>
+  <p>Empresas que confían en nosotros para impulsar su transformación digital:</p>
+  <div class="clientes-grid">
+    <div>
+      <img src="img/BBVA-Logo.png" alt="BBVA">
+      <p>BBVA</p>
+    </div>
+    <div>
+      <img src="img/microsoft-logo.png" alt="Microsoft">
+      <p>Microsoft</p>
+    </div>
+    <div>
+      <img src="img/Claro-Logo.jpg" alt="Claro Perú">
+      <p>Claro Perú</p>
+    </div>
+    <div>
+      <img src="img/Coca-Cola-Logo.png" alt="Coca-Cola">
+      <p>Coca-Cola</p>
+    </div>
+    <div>
+      <img src="img/Logo Ulima (1).jpg" alt="Universidad de Lima">
+      <p>Universidad de Lima</p>
+    </div>
+    <div>
+      <img src="img/Petroperu_logo.png" alt="Petroperú">
+      <p>Petroperú</p>
+    </div>
+  </div>
+</section>
+
+  <!-- CONTACTO -->
+  <!-- Formato responsivo con mapa y datos -->
+  <section class="contacto" id="contacto">
+    <h2>Contáctanos</h2>
+    <div class="cards-container">
+      <div>
+        <!-- Mapa incrustado de Google -->
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.446636128003!2d-77.03495428518788!3d-12.093402891438923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8c18980f289%3A0xbbb0ee0f304c340e!2sAv.%20Arequipa%201234%2C%20Lima%2015003%2C%20Per%C3%BA!5e0!3m2!1ses!2spe!4v1654812312312!5m2!1ses!2spe"
+          width="100%" height="250" style="border:0; border-radius: 10px;" allowfullscreen=""
+          loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div>
+        <p><i class="fa-solid fa-location-dot"></i> Av. Innovación 123, Lima - Perú</p>
+        <p><i class="fa-solid fa-envelope"></i> contacto@kionetworks.com</p>
+        <p><i class="fa-solid fa-phone"></i> +51 987 654 321</p>
+        <div class="redes">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 KIO Networks | Todos los derechos reservados</p>
+    <p>Proyecto desarrollado por: Díaz Esquivel Mercedes | Ocas Alvarado Antonella | Huaripata Romero Darwin | Flores Mantilla Angie</p>
+  </footer>
+
+  <!-- SCRIPT MENÚ HAMBURGUESA -->
+  <script>
+    const toggle = document.querySelector(".nav-toggle");
+    const nav = document.querySelector("#navbar ul");
+
+    toggle.addEventListener("click", () => {
+      nav.classList.toggle("show");
+    });
+  </script>
+
+</body>
+</html>
